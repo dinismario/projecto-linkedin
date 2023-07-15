@@ -1,0 +1,144 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: linear-gradient(to, right, rgba(211, 211, 211, 0.488) , rgb(200, 200, 200));
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: cornflowerblue;
+    transition: 1s;
+}
+#pai{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+#Linkedin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    color: rgba(0, 0, 255, 0.441);
+}
+.divisão{
+    position: relative;
+}
+.form{
+    background: none;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(166, 165, 165);
+    color: rgb(101, 100, 100);
+    letter-spacing:5px;
+    outline: none;
+    width: 100%;
+   
+
+}
+#label{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0px;
+    left: 0px;
+    transition: 4s;
+    pointer-events: none;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+
+}
+#center{
+   text-align: center;
+}
+#cont{
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+#cheq{
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+}
+#cont:hover{
+    background-color: blue;
+    transition: 2s;
+    cursor: pointer;
+    transform: translate(6%, 6%);
+    
+}
+#ou{
+    text-align: center;
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 20%;
+}
+.log{
+    padding: 8px;
+    background-color: rgba(177, 177, 177, 0.737);
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.log:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    transition: 2s;
+    transform: translate(6%, 6%);
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+}
+.log1{
+    padding: 8px;
+    background-color: rgba(177, 177, 177, 0.737);
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.log1:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    transition: 2s;
+    transform: translate(6%, 6%);
+}
+#log2{
+    padding: 8px;
+    background-color: rgba(177, 177, 177, 0.737);
+    color: black;
+    border-radius: 10px;
+    
+}
+#log2:hover{
+    background-color: darkgray;
+    cursor: pointer;
+    transition: 2s;
+    transform: translate(6%, 6%);
+}
+
