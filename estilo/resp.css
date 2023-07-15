@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    #pai{
+        width: 80vw;
+ 
+    }
+}
+@media screen and (min-width: 992px ) and (max-width:1200px) {
+    #pai{
+        width: 950px;
+    }
+    
+}

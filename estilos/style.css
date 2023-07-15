@@ -4,8 +4,8 @@
     padding: 0px;
 
 }
-body{
-    background-image: linear-gradient(to, right, rgba(211, 211, 211, 0.488) , rgb(200, 200, 200));
+body,html{
+    background-color: rgba(236, 236, 236, 0.98);
 }
 
 a{
@@ -16,10 +16,15 @@ a:hover{
     transition: 1s;
 }
 #pai{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(218, 216, 216, 0.742);
     width: 400px;
+    height:615px;
     margin: auto;
     margin-top: 20px;
+    box-shadow: 12px 12px 12px rgba(104, 104, 104, 0.2);
+    transition: width 1s , heigth 1s;
+    transition-timing-function: ease;
+    border-radius: 10px;
 }
 h1{
     text-align: center;
@@ -64,10 +69,14 @@ p{
 }
 #center{
    text-align: center;
+  
 }
 #cont{
     background-color: darkblue;
     color: white;
+    outline: none;
+    font-size: 1.1em;
+    border: none;
     width: 100%;
     padding: 10px;
     border-radius: 10px;
@@ -80,6 +89,7 @@ p{
 }
 #cont:hover{
     background-color: blue;
+
     transition: 2s;
     cursor: pointer;
     transform: translate(6%, 6%);
@@ -94,6 +104,9 @@ p{
 
 img{
     width: 20%;
+   
+    margin: 10px;
+    border-radius: 2px;
 }
 .log{
     padding: 8px;
@@ -101,6 +114,7 @@ img{
     color: black;
     border-radius: 10px;
     margin-bottom: 10px;
+    box-shadow: 8px 8px 8px rgba(156, 155, 155, 0.178);
     
 }
 .log:hover{
@@ -133,6 +147,8 @@ h3{
     background-color: rgba(177, 177, 177, 0.737);
     color: black;
     border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(156, 155, 155, 0.178);
+
     
 }
 #log2:hover{
@@ -140,5 +156,6 @@ h3{
     cursor: pointer;
     transition: 2s;
     transform: translate(6%, 6%);
+    box-shadow: 8px 8px 8px rgba(156, 155, 155, 0.178);
 }
 
